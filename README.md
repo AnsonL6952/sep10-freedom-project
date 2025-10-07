@@ -4,7 +4,7 @@ by **Anson Li**
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP10 is a year-long project all about making a website that informs the viewer of the current and future innovations in the topic of my choosing.
 
-For my project, I chose the topic of **Medical**. I chose this due to the fact that I am intrested in discovering many facts about the Medical industry and their medicinal treatments so that I can also help others this can help me generally strength up my cooperation when working with others and patience due to the fact that workinbg with the medical industry usually makes up a   
+For my project, I chose the topic of **Medical**. I chose this due to the fact that I am intrested in discovering many facts about the Medical industry and their medicinal treatments so that I can also help others this can help me generally strength up my cooperation when working with others and patience due to the fact that workinbg with the medical industry usually makes up a large group of workers which requires a lot of patience in order to succeed with their task
 
 I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **X** in order to help me make my website.
 
