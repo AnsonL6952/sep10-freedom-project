@@ -9,7 +9,14 @@ Topic: **X**
 * Tech
   * Detail
   * [image text](image URL)
-  * https://go.gale.com/ps/retrieve.do?tabID=Viewpoints&resultListType=RESULT_LIST&searchResultsType=SingleTab&retrievalId=b597ddc5-b35b-458a-a0a3-a29b18b807d9&hitCount=1827&searchType=BasicSearchForm&currentPosition=15&docId=GALE%7CEJ3010864206&docType=Viewpoint+essay&sort=Relevance&contentSegment=ZXAY-MOD1&prodId=OVIC&pageNum=1&contentSet=GALE%7CEJ3010864206&searchId=R3&userGroupName=nysl_me_76_tele&inPS=true
+    *https://www.bmcc.cuny.edu/health-programs-at-bmcc/
+  *Program that offers training in what medical field you're interested in
+  *Also tells you what they offer if you join them
+  *Offers a lot of diversity in their medical field
+  *They have alot of advanced technology and computers and different facilities
+    *https://www.nyit.edu/medicine/
+  * Offers basic medical training such as cpr
+  * Helps reinforce your skills 
 
 ## Part B: possible future technology
 * Idea
