@@ -1,3 +1,20 @@
 body {
     background-color: #ADD8E6;
 }
+ p {
+    border-style: solid;
+    margin-top: 25px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+    border-style: solid;
+    margin-left: 450px;
+    margin-right:450px;
+}
+
+h21 {
+    margin-left: 50px;
+}

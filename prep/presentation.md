@@ -1,16 +1,16 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Have you every gotten something stuck in your teeth like a piece of broccoli or a piece of meat?
 
 ## Product
-* 
+*
 
 ## Process
-* 
+*
 
 ## Conclusion
-* 
+*
 
 <!-- EXAMPLE
 
