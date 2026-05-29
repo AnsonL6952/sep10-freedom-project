@@ -1,60 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <title>The-medical-perspective</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+<title>The-medical-perspective</title>
+
+<style>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    background: linear-gradient(135deg, #74c7f9, #2980b9);
+    color: #fff;
+    line-height: 1.6;
+}
+.navbar {
+
+}
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #ffd700;
+}
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
+h1, h2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    background-color: rgba(0, 0, 50, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+section {
+    margin-bottom: 50px;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+</style>
 </head>
-<body>
-
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">The Multipurpose Medical Tool</a>
-        </div>
-    </nav>
+<body data-spy="scroll" data-target="#navbar" data-offset="80" tabindex="0">
 
 
-    <div class="container my-4">
-        <h1 class="animate__animated animate__flipInX text-center">Introduction</h1>
-        <p>
-            Throughout history medicine has modernized overtime in which we can do many things that our early ancestors could not achieve such as our vaccines, our medical technology like X-rays, EKGs, and Patient Monitors, all of these were possible due to human intellect and our desire to keep improving our now advanced technology.
-        </p>
-        <p>
-            Today, doctors still try to find new sorts of tools or ways to make their surgeries more successful in which they can make little to no mistakes and the patient is able to not run into any issues during the surgery.
-        </p>
-        <h2>How do I use this tool?</h2>
-        <p>
-            How it functions is simple, you can alternate between a scalpel and pliers. In which you can use the scalpel with a box cutter with a switch in which it will retract or extend based on how far the user wants it to go. For the medical tongs, it is also retractable and can extend based on the side in which if something needs to be retracted in or large or small cavity, the user can use the retractable tongs and adjust the setting in order to do so.
-        </p>
-
-        <h1 class="animate__animated animate__bounceIn text-center">Part A: Existing Technology</h1>
-        <p>
-            Existing medical technologies we currently have are the medical scalpel, scissors, pliers, and forceps. These tools are a must in basic surgery in which they can cut open the patient and see if there are any obstructions or errors in the person's body. This modern technology has many benefits to us as a society but it also raises concerns that often make both me and other people anxious. We have questions that we often ask ourselves: is the surgery being done in us safe? Will there be anything that could slip in? This is what I made in order to try and resolve this situation.
-        </p>
-
-        <h1 class="animate__animated animate__bounceIn text-center">Part B: Possible Future Technology</h1>
-        <p>
-            My proposition is to make a multipurpose scalpel. The purpose of my tool is to ensure that no medical tools fall inside the patient, which could lead to issues such as severe bleeding and organ damage. I believe the multipurpose scalpel is important for future doctors and surgeons because there are so many tools for the doctors to use, often requiring an assistant just to manage all these tools. This can be inconvenient for not only the surgeon but also the nurses, especially under the immense pressure of ensuring patient safety and efficiency.
-        </p>
-
-        <h2 class="text-center">3D Visualization</h2>
-        <iframe src="Aframe.html" style="width:100%; height:250px; border:none;"></iframe>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+  <a class="navbar-brand" href="#">The Medical Tool</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#intro">Introduction</a>
+      <a class="nav-item nav-link" href="#parta">Part A: Existing Technology</a>
+      <a class="nav-item nav-link" href="#partb">Part B: Future Technology</a>
     </div>
+  </div>
+</nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script>
+<section id="intro" class="container my-4 pt-4">
+    <h1 class="animate__animated animate__flipInX text-center mb-4">Introduction</h1>
+    <div class="row align-items-center">
+        <div class="col-md-6 mb-3">
+            <img src="three.png" alt="Medical Tools" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <p>
+                Throughout history medicine has modernized overtime in which we can do many things that our early ancestors could not achieve such as our vaccines, our medical technology like X-rays, EKGs, and Patient Monitors, all of these were possible due to human intellect and our desire to keep improving our now advanced technology.
+            </p>
+            <p>
+                Today, doctors still try to find new sorts of tools or ways to make their surgeries more successful in which they can make little to no mistakes and the patient is able to not run into any issues during the surgery.
+            </p>
+        </div>
+    </div>
+</section>
 
-    </script>
+
+<section id="parta" class="container">
+    <h2 class="animate__animated animate__bounceIn text-center mb-4">Part A: Existing Technology</h2>
+    <div class="row align-items-center">
+        <div class="col-md-6 mb-3">
+            <img src="two.png" alt="Autopsy Tools" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <p>
+                Existing medical technologies we currently have are the medical scalpel, scissors, pliers, and forceps. These tools are a must in basic surgery in which they can cut open the patient and see if there are any obstructions or errors in the person's body. This modern technology has many benefits to us as a society but it also raises concerns that often make both me and other people anxious. We have questions that we often ask ourselves: is the surgery being done in us safe? Will there be anything that could slip in? This is what I made in order to try and resolve this situation.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="partb" class="container mb-5">
+    <h2 class="animate__animated animate__bounceIn text-center mb-4">Part B: Possible Future Technology</h2>
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <p>
+                My proposition is to make a multipurpose scalpel. The purpose of my tool is to ensure that no medical tools fall inside the patient, which could lead to issues such as severe bleeding and organ damage. I believe the multipurpose scalpel is important for future doctors and surgeons because there are so many tools for the doctors to use, often requiring an assistant just to manage all these tools. This can be inconvenient for not only the surgeon but also the nurses, especially under the immense pressure of ensuring patient safety and efficiency.
+            </p>
+        </div>
+        <div class="col-md-6 mb-3">
+            <img src="one.png" alt="Future Medical Tools" class="img-fluid">
+        </div>
+    </div>
+    <h3 class="text-center mt-4">3D Visualization</h3>
+    <iframe src="Aframe.html"></iframe>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
